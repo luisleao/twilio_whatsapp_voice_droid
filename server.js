@@ -142,7 +142,7 @@ wss.on('connection', async (ws, req) => {
                                         Envie apenas a sequência de comando que pode será um array de comandos que poderá ser comandos em hexadecimal conforme instruções a seguir ou um comando de delay em milissegundos, conforme exemplo:
                                         [
                                             "COMANDO HEX",
-                                            "DELAY:<tempo em milissegundos - não pode ultrapassar 3000"
+                                            "DELAY:<tempo em milissegundos - não pode ultrapassar 5000"
                                         ]
                                         Limite este vetor em até 10 items.
                                         Quando enviar um comando para controlar o motor, sempre envie no final um comando de desligamento de todos os motores e você pode ultrapassar o limite de 10 items no vetor caso seja necessário. Cara motor precisa ser desligado individualmente!
