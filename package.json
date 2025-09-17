@@ -1,0 +1,30 @@
+{
+  "name": "twilio_whatsapp_voice_droid",
+  "version": "1.0.0",
+  "description": "Esta demo foi apresentada no RogaDX.com em 12/09/2025.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisleao/twilio_whatsapp_voice_droid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisleao/twilio_whatsapp_voice_droid/issues"
+  },
+  "homepage": "https://github.com/luisleao/twilio_whatsapp_voice_droid#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0",
+    "http": "^0.0.1-security",
+    "openai": "^5.20.1",
+    "twilio": "^5.9.0",
+    "ws": "^8.18.3"
+  }
+}
